@@ -1,0 +1,7 @@
+[user]
+	name = yutxie
+	email = t.yu15@imperial.ac.uk
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
